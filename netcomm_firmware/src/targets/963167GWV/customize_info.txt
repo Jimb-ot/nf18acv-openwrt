@@ -1,0 +1,11 @@
+Customize Info
+profile=963167GWV
+svnbcm=
+svn
+svnvtp=
+svn
+=============================================
+    cpe file MD5: 830ba626509714bffeae49d5f8c9f3ba bcm963167GWV_cfe_fs_kernel
+    .w  file MD5: f0e772e2d98fa6df745acb2ff0a7c4e4 bcm963167GWV_flash_image_963167GWV_004R_single.w
+upgrade file MD5: 2cb485274ea22cdbfab92cc0f44e77dc bcm963167GWV_fs_kernel
+=============================================

@@ -1,0 +1,17 @@
+#!/bin/sh
+#Create by zqw at 2013-10-22 for lte
+#If any other function need this file, please add the following two lines to that file,
+#and delete this file.
+
+export PATH=/sbin:/usr/sbin:/bin:/usr/bin
+
+#[ -n "$broadcast" ] && BROADCAST="broadcast $broadcast"
+[ -n "$subnet" ] && NETMASK="netmask $subnet"
+
+#envp maybe no broadcast
+#[ $interface == "lte0"  ] && /sbin/ifconfig $interface $ip $BROADCAST $NETMASK
+[ $interface == "lte0"  ] && /sbin/ifconfig $interface $ip $NETMASK
+
+[ $interface == "lte0"  ] && [ -n "$ip" ] &&  3g-mngr ipup
+
+
